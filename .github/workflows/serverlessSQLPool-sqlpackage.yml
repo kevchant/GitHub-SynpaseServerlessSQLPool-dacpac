@@ -57,7 +57,7 @@ jobs:
       # Installs dacpac
       # For this to work you MUST have two secrets specified, defaults in my repo are blank
       # One called SQLDB_SERVER which contains your logical SQL Server name
-      # Requires a secret SQLDB_CONNECTION_STRING which contains connection string to your SQL Server 2022 database
+      # Requires a secret SQLDB_CONNECTION_STRING which contains connection string to the database in the serverless SQL Pool
       - name: Serverlesss SQL Pool  Deploy
         uses: Azure/sql-action@v2
         with:
