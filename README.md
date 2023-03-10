@@ -1,6 +1,6 @@
-# GitHubH-SynpaseServerlessSQLPool-dacpac
+# GitHub-SynpaseServerlessSQLPool-dacpac
 
-Example of a state-Based deployment that can create a dacpac file based on an existing serverless SQL Pool and deploy it to another Azure Synapse serverless SQL Pool using GitHub Actions.
+Example of a state-Based deployment that can create a dacpac file based on an existing serverless SQL Pool and deploy it to another Azure Synapse serverless SQL Pool using GitHub Actions. Based on a blog post I wrote called ['Deploy a dacpac to a serverless SQL pool using GitHub Actions](https://www.kevinrchant.com/2023/03/09/deploy-a-dacpac-to-a-serverless-sql-pool-using-github-actions/)'.
 
 You can find the YAML file which you can use as a template in the .github/workflows subfolder.
 
